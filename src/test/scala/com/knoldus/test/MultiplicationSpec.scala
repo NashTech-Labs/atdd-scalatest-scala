@@ -24,7 +24,7 @@ class MultiplicationSpec extends FeatureSpec with GivenWhenThen {
       val result = x * y
 
       then("i get 12")
-      assert(result === 11)
+      assert(result === 12)
 
     }
 
